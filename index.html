@@ -1,0 +1,252 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACK Valley View School</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #004080;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #003366;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    #projects h2, #apply h2, #about h2, #contact h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .project-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .project {
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project p {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #f1f1f1;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    form button {
+      background-color: #004080;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #003366;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ACK Valley View School</h1>
+    <p>committed to excellence</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#apply">Apply</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+  <h2>About Us</h2>
+  <p>
+    At <strong>ACK Valley View School</strong>, we believe that education is more than academics — it is the nurturing of the heart, mind, and spirit. As a church-based institution rooted in the values of the Anglican Church of Kenya (ACK), we provide a Christ-centered environment where every child is guided to grow in wisdom, integrity, and purpose.
+  </p>
+
+  <p>
+    Our mission is to develop confident, disciplined, and morally upright learners through a holistic approach to education. We blend the national curriculum with spiritual teachings, character formation, and co-curricular activities that empower children to thrive academically and ethically.
+  </p>
+
+  <p>
+    Located in a serene and secure environment along Kenyatta Road, our school offers modern learning facilities, dedicated Christian educators, and a caring community where each child is valued and inspired to reach their God-given potential.
+  </p>
+
+  <p>
+    At ACK Valley View School, we don’t just teach — we lead by example, guiding the next generation to become responsible citizens, faithful believers, and visionary leaders.
+  </p>
+</section>
+
+
+ <!-- Projects Section -->
+<section id="projects">
+  <h2>Our Projects</h2>
+  <div class="project-gallery">
+    <div class="project">
+      <img src="https://i.postimg.cc/WhdTYW0q/project1.jpg" alt="Project 1">
+      <p>Graduation Ceremony</p>
+    </div>
+    <div class="project">
+      <img src="https://i.postimg.cc/TyJ65ZvF/project2.jpg" alt="Project 2">
+      <p>Cooking Class – Preparation</p>
+    </div>
+    <div class="project">
+      <img src="https://i.postimg.cc/G4Yrd47c/project3.jpg" alt="Project 3">
+      <p>Kitchen Skills Workshop</p>
+    </div>
+    <div class="project">
+      <img src="https://i.postimg.cc/p9HvTP4K/project4.jpg" alt="Project 4">
+      <p>Outdoor Learning Session</p>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements Section -->
+<section id="achievements">
+  <h2>Our Achievements</h2>
+  <div class="achievement-gallery">
+    <div class="achievement">
+      <img src="https://i.postimg.cc/dknwpgWr/achievement1.jpg" alt="Achievement 1">
+      <p>Best Performing School Award</p>
+    </div>
+    <div class="achievement">
+      <img src="https://i.postimg.cc/PNrtYrx4/achievement2.jpg" alt="Achievement 2">
+      <p>Science Fair Champions</p>
+    </div>
+    <div class="achievement">
+      <img src="https://i.postimg.cc/rRmMkgbb/achievement3.jpg" alt="Achievement 3">
+      <p>Music Festival Winners</p>
+    </div>
+    <div class="achievement">
+      <img src="https://i.postimg.cc/tY8yK3zS/achievement4.jpg" alt="Achievement 4">
+      <p>Community Outreach Program</p>
+    </div>
+  </div>
+</section>
+
+  <section id="apply">
+  <h2>Apply for Admission</h2>
+  <p>Fill in the form below to enroll your child at ACK Valley View School. We accept students from Playgroup up to Grade 9.</p>
+
+  <form action="https://formspree.io/f/xqalyrab" method="POST">
+    <!-- Redirect after submission -->
+    <input type="hidden" name="_redirect" value="https://ackvalleyview.netlify.app/thank-you.html">
+
+    <label for="child-name">Child's Full Name:</label>
+    <input type="text" id="child-name" name="Child Name" required>
+
+    <label for="age">Child's Age:</label>
+    <input type="number" id="age" name="Age" required>
+
+    <label for="grade">Grade Applying For:</label>
+    <select id="grade" name="Grade" required>
+      <option value="">-- Select Grade --</option>
+      <option>Playgroup</option>
+      <option>PP1 (Pre-Primary 1)</option>
+      <option>PP2 (Pre-Primary 2)</option>
+      <option>Grade 1</option>
+      <option>Grade 2</option>
+      <option>Grade 3</option>
+      <option>Grade 4</option>
+      <option>Grade 5</option>
+      <option>Grade 6</option>
+      <option>Grade 7</option>
+      <option>Grade 8</option>
+      <option>Grade 9</option>
+    </select>
+
+    <label for="parent-name">Parent/Guardian Name:</label>
+    <input type="text" id="parent-name" name="Parent Name" required>
+
+    <label for="phone">Parent Contact Number:</label>
+    <input type="tel" id="phone" name="Phone" required>
+
+    <label for="message">Additional Information:</label>
+    <textarea id="message" name="Message" rows="4" placeholder="Tell us anything important about the child or application..."></textarea>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Kenyatta Road, Juja Sub-county, Kiambu County</p>
+    <p>📞 Phone: +254 759 333 234</p>
+    <p>✉️ Email: info@ackvalleyviewschool.sc.ke</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ACK Valley View School. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
